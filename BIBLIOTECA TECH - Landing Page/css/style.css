@@ -1,0 +1,619 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../img/fundo.png);
+}
+
+
+
+
+/* ------------- Primeira página --------------- */
+
+header{
+    background-color: #f8f7f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+header img{
+    width: 200px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+header button{
+    padding: 10px 25px;
+    background-color: #be580f;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    color: white;
+}
+
+.pg1{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.pg1 h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+}
+
+.textoLaranja{
+    margin-inline: 10px;
+    color: #be580f;
+}
+
+.boxSearch{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.288);
+    border-radius: 8px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.barraPesquisa{
+    padding: 25px 25px 25px 0px;
+    width: 450px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.lupa{
+    width: 22px;
+    margin-inline: 20px;
+}
+
+.boxSearch button{
+    background-color: #be580f;
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.barraFalsa{
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    background-color: #ec7e2f;
+    cursor: pointer;
+}
+
+.firstH1{
+    margin-bottom: -18px;
+}
+
+
+
+
+
+/* ------------- Segunda página -------------- */
+
+.pg2{
+    background-color: #F8F7F6;
+    height: 104vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.topoTextos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    padding-inline: 4vw;
+}
+
+.topoTextos h2{
+    font-weight: 500;
+}
+
+.topoTextos p{
+    color: #ec7e2f;
+    font-weight: 500;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.card{
+    background-color: white;
+    height: 75vh;
+    width: 21vw;
+    border-radius: 10px;
+    padding: 12px 12px 8px 12px;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.85rem;
+}
+
+.imagemLivro{
+    background-color: rgb(222, 222, 222);
+    border-radius: 10px;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    width: 10rem;
+}
+
+.card h3{
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.areaBotaoCard{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 21%;
+}
+
+.areaBotaoCard button{
+    width: 100%;
+    height: 52%;
+    border-radius: 5px;
+    border: none;
+    background-color: #f7ddca;
+    color: #d86513;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+
+/* ------------- Terceira página -------------- */
+
+.pg3{
+    height: 90vh;
+    background-color: #F5EEEA;
+}
+
+.topoPg3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12vh 5vw 0 5vw;
+    align-items: end;
+}
+
+.topoPg3 p{
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+    color: #ec7e2f;
+}
+
+.topoPg3 h2{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.seeFull{
+    padding: 12px 25px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #d8651346;
+    font-weight: 500;
+    color: black;
+}
+
+.boxCalendario{
+    width: 100%;
+    height: 63.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.cardCalend{
+    background-color: white;
+    width: 28vw;
+    height: 40vh;
+    border-radius: 10px;
+    padding: 1.7vw;
+}
+
+.topoCardCalend{
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendarinho{
+    background-color: #F8EEE7;
+    color: #B7550F;
+    width: 3.6vw;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+.calendarinho p{
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.icone{
+    width: 2.5vw;
+    height: 5vh;
+}
+
+#icone1{
+    background-image: url(../img/calendIcon.png);
+    background-position: center;
+    background-size: 70px;
+}
+
+#icone2{
+    background-image: url(../img/babyIcon.png);
+    background-position: center;
+    background-size: 70px;
+}
+
+#icone3{
+    background-image: url(../img/latterIcon.png);
+    background-position: center;
+    background-size: 60px;
+}
+
+.textinho{
+    font-size: 0.9rem;
+    color: #64748B;
+    margin-bottom: 3.6vh;
+}
+
+.cardCalend h2{
+    font-weight: 700;
+}
+
+.cardCalend h3{
+    margin-block: 2vh;
+    font-weight: 500;
+}
+
+.register{
+    color: #B7550F;
+    font-size: 1.1rem;
+}
+
+
+
+
+
+.pg4{
+    height: 90vh;
+    background-color: #F9F8F7;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topoPg4{
+    width: 50vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 13vh;
+    padding-bottom: 15vh;
+}
+
+.boxPg3{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagemIcone{
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+}
+
+#imi1{
+    background-image: url(../img/pc3.png);
+    background-position: center;
+    background-size: 50px;
+}
+
+#imi2{
+    background-image: url(../img/porta3.png);
+    background-position: center;
+    background-size: 50px;
+}
+
+#imi3{
+    background-image: url(../img/ment3.png);
+    background-position: center;
+    background-size: 50px;
+}
+
+.cardPg3{
+    width: 29vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cardPg3 h3{
+    margin-top: 2vh;
+    margin-bottom: 2.5vh;
+}
+
+.cardPg3 p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+
+
+
+.pg5{
+    height: 85vh;
+    background-color: #22180F;
+    display: flex;
+    flex-direction: column;
+}
+
+.pg5Cima{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pg5Baixo{
+    height: 25%;
+    width: 100%;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    border-top: 1.5px solid #3c3c3c;
+    color: rgb(165, 165, 165);
+}
+
+.topicosPg5{
+    height: 45vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagemBiblio{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.imagemBiblio img{
+    width: 250px;
+    margin-left: -20px;
+    margin-bottom: -20px;
+}
+
+.textoT1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+}
+
+.iconesT1{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.bolinhaIcone{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: #1D2A3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolinhaIcone img{
+    width: 25px;
+}
+
+.bolinhaIcone2{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: #1D2A3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolinhaIcone2 img{
+    width: 50px;
+}
+
+#t1{
+    margin-left: 5vw;
+}
+
+#t3{
+    width: 20vw;
+    padding-top: 43px;
+    gap: 10px;
+}
+
+#t2 p{
+    margin-block: 5px;
+    display: flex;
+}
+
+#t4, #t2{
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    gap: 15px;
+}
+
+#t4 b, #t3 b, #t2 b{
+    color: white;
+    font-size: 1.3rem;
+}
+
+#t4 p, #t3 p, #t2 p{
+    color: #6f6f6f;
+    font-size: 1rem;
+}
+
+#box{
+    display: flex;
+    justify-content: space-between;
+}
+
+#t2 div{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+#t2 img{
+    width: 30px;
+}
+
+
+
+
+
+/*
+.Links {
+    background-color: #22180F;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: #ffffff;
+    width: 100%;
+    height: 50dvh;
+    padding: 5dvh;
+}
+
+.left{
+    display: flex;
+    width: 40dvh;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 0.8rem;
+}
+
+.left img{
+    width: 40dvh;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 40dvh;
+}
+
+.redes img{
+    width: 6dvh;
+    margin: 10px 10px 10px 0;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: rgba(0, 72, 255, 0.3);
+    opacity: 0.4;
+}
+
+.Contact{
+    height: 40dvh;
+    width: 35dvh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.Contact h3{
+
+    font-size: 1.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Contact img{
+    width: 6dvh;
+}
+
+.loc{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.opr{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: #F8F7F5;
+    width: 100%;
+    padding: 3dvh;
+    border-top: solid 4px rgba(128, 128, 128, 0.242);
+}
+*/
